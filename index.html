@@ -15,12 +15,12 @@
         </div>
         <div class="nav-list">
             <ul class="nav-list-item dflex">
-                <li><a href="">Home</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">About us</a></li>
+                <li><a class="home nav-home" href="">Home</a></li>
+                <li><a class="navm-color nav-shop" href="">Shop</a></li>
+                <li><a class="navm-color nav-about" href="">About us</a></li>
                 <!-- <li><i class="fa-solid fa-cart-shopping"></i></li> -->
                  <li>
-                    <a href="">
+                    <a class="black" href="">
                     <div class="dflex cart">
                         <div><i class="fa-solid fa-cart-shopping"></i>
                         </div>
@@ -33,7 +33,7 @@
         </nav>
         <div class="banner dflex">
             <div class="banner-content">
-                <h1 class="banner-title">Always Fresh <br>Flowers</h1>
+                <h1 class="banner-title noto-serif">Always <span id="ff"> Fresh <br>Flowers</span></h1>
                 <p class="banner-description inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
             </div>
             <div class="banner-img">
@@ -43,9 +43,9 @@
     </header>
     <main>
         <section class="plants-section mwidth">
-            <h2 class="center-text title">Our Plant</h2>
-            <p class="center-text inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-            <div class="card-container boder">
+            <h2 class="center-text title noto-serif"><span id="our">Our</span> Plant</h2>
+            <p class="center-text inter container-description">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <div class="card-container ">
                 <div class="card ">
                     <div class="card-content inter">
                         <img src="assets/sample-flower-image.png" alt="">
@@ -98,31 +98,69 @@
                     <img src="assets/flower-store.png" alt="">
                 </div>
             </div>
+              <div class="badge">
+                    <img src="assets/trusted-badge.png" alt="">
+                </div>
             <div class="plant-lover-content">
-                <h3>Flower & Plants Lover</h3>
-                <ul>
-                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                <h3 id="flower-lover" class="noto-serif title">Flower & Plants Lover</h3>
+                <ul class="inter">
+                    <li >Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                     <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                     <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                 </ul>
             </div>
         </section>
+        <section class="deals">
+            <div class="deals-content center-text">
+                <h3>Latest Deals</h3>
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+                <div class="grid-section">
+                   <div class="cell1 boder">
+                        <div class="cell1-content">
+                            <h3>60% off | Bloom Plant</h3>
+                            <a href="">shop now</a>
+                        </div>
+                        <img src="assets/deal-bloom.png" alt="">
+                   </div>
+                   <div class="cell2 boder">
+                        <div class="cell2-content ">
+                            <h3>30% off | Bloom Plant</h3>
+                            <a href="">shop now</a>
+                        </div>
+                        <img src="assets/deal-ana.png" alt="">
+                    </div>
+                    <div class="cell3 boder">
+                        <div class="cell3-content">
+                            <h3>20% off | Bloom Plant</h3>
+                            <a href="">shop now</a>
+                        </div>
+                        <img src="assets/deal-zabo.png" alt="">
+                    </div>
+                    
+                    
 
+                </div>
+            </div>
+        </section>
 
         <section class="join-section">
             <div class="join-content">
-                <h3>Join the colorful Bunch</h3>
-                <input type="email" name="" id="">
-                <button>Subscribe</button>
-            </div>  
+                <h3 id="colorful-bunch" class="title">Join the colorful Bunch</h3>
+                <div class="form-btn dflex ">
+                    <div class="ip ">
+                        <input class="inter" type="email" name="" id="" placeholder="Write Email">
+                    </div>
+                    <div><button class="btn-subscribe"><a class="inter" href="">Subscribe</a></button></div>
+                </div> 
+            </div> 
         </section>
     </main>
-    <footer class="footer-container boder dflex">
-         <div class="footer-content">
+    <footer class="footer-container dflex">
+            <div class="footer-content">
                 <img src="assets/logo.png" alt="">
-                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+                <p class="inter footer-description ">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
             </div>
-            <div>
+            <div class="first-links">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About Us</a></li>
@@ -131,7 +169,7 @@
                     <li><a href="">Contact Us</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="second-links">
                 <ul>
                     <li><a href="">Features</a></li>
                     <li><a href="">Pricing</a></li>
