@@ -212,7 +212,7 @@ header img{
     top: -127px;
     left: 347px;
     animation: rotation 8s linear infinite;
-    
+    /* position: absolute; */
 }
 
 /* deal section */
